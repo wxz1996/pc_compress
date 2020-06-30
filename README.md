@@ -21,12 +21,12 @@ We use the ShapeNet in our experiments, which are available below:
 3.Build 
 the compile command can be find in ```bash.sh```, you should adjust it slightly to compile each operation
 
-4.Training
+4.Train
 ```
 cd src
 python train.py
 ```
-4.Compression/Decompression
+5.Compression/Decompression
 ```
 python compress.py
 python decompress.py
