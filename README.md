@@ -19,7 +19,7 @@ We use the ShapeNet in our experiments, which are available below:
 [Shapenet dataset](https://www.shapenet.org/)
 
 3. build tf_ops
-the compile command can be find in ```compile.txt```
+the compile command can be find in ```bash.sh```, you should adjust it slightly to compile each operation
 
 3.Training
 ```
