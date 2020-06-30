@@ -16,4 +16,4 @@ python3.6+ Tensorflow1.13 with CUDA10.0
 
 We use the ShapeNet in our experiments, which are available below:
 
-[Shapenet dataset](
+[Shapenet dataset](https://www.shapenet.org/)
