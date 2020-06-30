@@ -8,7 +8,7 @@ This repo of the research paper, **Lossy Geometry Compression of 3D Point Cloud 
 
 ## Guide:
 
-1.prerequisites:
+1.Prerequisites:
 
 python3.6+ Tensorflow1.13 with CUDA10.0
 
@@ -17,3 +17,18 @@ python3.6+ Tensorflow1.13 with CUDA10.0
 We use the ShapeNet in our experiments, which are available below:
 
 [Shapenet dataset](https://www.shapenet.org/)
+
+3.Training
+```
+cd tf_ops
+bash bash.sh
+cd ..
+cd src
+python train.py
+```
+4.Compression/Decompression
+```
+python compress.py
+python decompress.py
+```
+
